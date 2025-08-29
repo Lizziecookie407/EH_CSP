@@ -1,5 +1,12 @@
 # EH 6th Varables Notes
 
+#One way to have your program give an output is a print statement in python. It sends all the information inside of parentheses to the terminal. Use quotation marks if it is words. It does not print the parentheses or quotation marks.
+#A variable is a container. You have to label it something that actually makes sense for what it holds.
+#I assign a variable by stating it equals something.
+#I reassign a variable by saying it is something else. It will replace it with the new thing.
+#I create an input into my program by saying input and asking something inside parentheses for the user to answer.
+#You can have infinite things in the same print statement but every item needs to be separated with comments.
+
 #Variable
 subject = "CSP"
 pi = 3.1415926535897932384626433832795028841971693993751
