@@ -37,7 +37,7 @@ num_one =  float(input("Give me a number:\n"))
 num_two = int(input("Give me a number:\n"))
 
 num_one += num_two
-print("\naddition (+):",round(num_one, 0)) #Rounding: 1. what needs rounded 2. by how manyhg
+print("\naddition (+):",round(num_one, 0)) #Rounding: 1. what needs rounded 2. by how many
 num_one -= num_two
 print("subtraction (-):",num_one)
 num_one *= num_two
