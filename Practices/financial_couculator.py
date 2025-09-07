@@ -8,8 +8,8 @@ utilities = float(input("Your monthly utilities: "))
 groceries = float(input("Your monthly groceries: "))
 transportation = float(input("Your monthly transportation: "))
 savings = income*.1
-total_expenses = rent+utilities+groceries+transportation+savings #everything plus everything
-spending = income-total_expenses #income - total
+total_expenses = rent+utilities+groceries+transportation+savings
+spending = income-total_expenses
 
 percent_savings = round(savings/income*100,0)
 percent_rent = round(rent/income*100, 0)
