@@ -16,6 +16,9 @@ print("I did it!")
     #upper()
     #lower()
     #strip()
+# Syntax Error
+# Logic error
+# Run-Time Error
 
 #examples of strings
 first_name=input("What's your first name? ").strip().lower().title()
