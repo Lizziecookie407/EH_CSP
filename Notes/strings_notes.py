@@ -32,7 +32,7 @@ string= 'this is my string'
 #Logic error
 num_one=1
 num_two=3
-print(num_one + num_two) # does not do addition, jsut puts them together
+print(num_one + num_two) # does not do addition, just puts them together
 #run code error
 letter= "1" # "a" cant make a letter a number
 int(letter)
