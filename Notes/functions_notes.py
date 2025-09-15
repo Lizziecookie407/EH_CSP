@@ -4,11 +4,9 @@ import random
 
 #A function is: a set of inctructions that are executed when you use a keyword. not based on a spesific data type.
 #Why we use functions: To simplify and shorten code. For when you want the same thing to happen over and over again with different information. So we don't have to rewrite code.
-#White space: used to tell computers where things are (indents). the tabs you are using must match to keep your code from breaking.
+#White space: used to tell computers where things are (indents). The tabs you are using must match to keep your code from breaking.
 #Parameters and arguments are: Paramenters go inside the parenthases when defining the funtion. Arguements are when you call the funtion.
-
-#Return statements are
-#How to use return statements in a program
+#Return statements are when you need to save something without printing it for the user to see, or to use later
 
 #How we write funtions
 print("this")
@@ -21,7 +19,7 @@ def welcome():
 print("The function is over.")
 
 #calling a function
-#welcome()
+welcome()
 
 #parameters and arguments
 def add(number, number_two): #parameters
@@ -36,7 +34,7 @@ add(9,70)
 add(87,45)
 
 def clean(info):
-    return info.strip().lower()
+    return info.strip().lower() #Return saves it as something without printing
 
 name=input("What is your name?\n")
 quest=input("What is your quest?\n")
