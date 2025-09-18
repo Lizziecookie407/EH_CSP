@@ -12,9 +12,9 @@
 # >= greater than or equal to
 # == equal to (we use two equal signs so it doesnt think we are setting a variable)
 # != not equal to (! means not)
-#What are the 3 logical operators?
-#What are logical operators for?
-#What does a nested conditional statement do?
+#What are the 3 logical operators? Logical operators are AND, OR, and NOT.
+#What are logical operators for? It lets us put multiple conditions together at the same time.
+#What does a nested conditional statement do? It lets you check more things inside of a conditional by putting an If statement inside another.
 
 num = int(input("Give me a number: "))
 
@@ -34,5 +34,23 @@ if name == "ELIZA":
     print("You are welcome here.")
 elif name == "Tia": # checks another thing before going to the else statement (also after the first if statement)
     print("You are a random person related to Mrs LaRose!")
+elif name == "Molly":
+    print("AHAHAHAHAHAHAHAHAHAHHAHAAAAA")
 else:
+    if name == "Valerie":
+        print("Hello sister......")
     print("You are not welcome here.")
+
+
+#AND OR NOT
+#write out the full conditional every time, on both sides
+num = int(input("Give me another number: "))
+
+if num >=0 and num <10: # and means both statements have to be true
+    print(f"{num} is a sinlge digit number.")
+elif num <25 or num == 50: # or means one of the statements has to be true
+    print(f"{num} is a really cool number!")
+elif not num <100: # not means it will not be true
+    print(f"{num} is a large number!")
+else:
+    print(f"You typed in {num}")
