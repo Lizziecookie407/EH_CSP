@@ -37,7 +37,7 @@ elif name == "Tia": # checks another thing before going to the else statement (a
 elif name == "Molly":
     print("AHAHAHAHAHAHAHAHAHAHHAHAAAAA")
 else:
-    if name == "Valerie":
+    if name == "Valerie" or name == "Lilly": #conditional statement
         print("Hello sister......")
     print("You are not welcome here.")
 
