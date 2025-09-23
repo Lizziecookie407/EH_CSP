@@ -21,8 +21,9 @@ print(siblings)
 
 #What is a loop? A loop will keep going until a specific condition is met.
 #What are the two types of loops? For loops and While loops
+#An Iteration is one instance of a loop. An Iterator keeps track of how many iterations.
 
-#For loop
+#How to do a For loop
 for sibling in siblings: #"sibling" is a temporary variable. It has to match the reference.
     print(f"Hello, {sibling}")
     #print("HI") # does it for each one even if it's not using them in the output.
@@ -60,7 +61,7 @@ x = 1
 
 print("Goose!")'''
 
-while True: #while True loops usually need a break
+while True: #While true loops usually need a break
     if number == x:
         print("Goose!")
         break #breaks the loop
