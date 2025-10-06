@@ -27,7 +27,7 @@ What happens when you mix integer and float operations in C?
 int main(void){
     int year = 2025; //whole numers
     float pi = 3.14; // decimals
-    double long_pi; 3.14159269358979323; // decimals that are 2x as long
+    double long_pi; 3.141592653589; // decimals that are 2x as long
 
     printf("8/3 = %d/n", (float)8/3); //cast is specifiacally stating the data type (explicit type casting)
     printf("8/3 = %1.2f/n", 8/3.0); //only show a ceratin amount of decimals
