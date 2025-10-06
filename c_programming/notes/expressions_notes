@@ -1,0 +1,41 @@
+// EH 6th Expressions Notes
+/*
+What is the difference between an integer and a float in C?
+ integer is a whole number, float is a decimal
+How does C handle integer division compared to float division?
+ all division is integer devision
+List the arithmetic operators available in C and their functions.
+ + addition - subtraction / devision * multiplication % modulo(remainder)
+What is the modulus operator, and how is it used?
+ % it gets the remainer from devision
+How do you round a float to the nearest integer in C?
+ convert the float to an intiger and it will round it
+What is type casting in C?
+ saying what type of data it is when you are using it
+What is the purpose of the math.h library? Name three functions it provides.
+ it give you extra funtions to use. pow(x,y)
+How do you print a float with a specific number of decimal places using printf()?
+ write X.X for the digits before and after the decimal point that it will print
+What happens when you mix integer and float operations in C?
+ the outcome will always be a float
+*/
+
+
+#include <stdio.h>
+#include <math.h>
+
+int main(void){
+    int year = 2025; //whole numers
+    float pi = 3.14; // decimals
+    double long_pi; 3.14159269358979323; // decimals that are 2x as long
+
+    printf("8/3 = %d/n", (float)8/3); //cast is specifiacally stating the data type (explicit type casting)
+    printf("8/3 = %1.2f/n", 8/3.0); //only show a ceratin amount of decimals
+    printf("2 ^ 4 = %f/n", pow(2,4));
+
+    //compound assignment opperators
+    year += 1;
+    year ++;
+
+    return 0;
+}
