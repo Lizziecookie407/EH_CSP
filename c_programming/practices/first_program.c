@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 int main(void){
-    int name;
+    char name[20];
     printf("\nWhat is your name: ");
     fgets(name, sizeof(name), stdin);
-    printf("Hello, %c", name);
+    printf("Hello, %s! Nice of you to run my code.", name);
 
     return 0;
 }
