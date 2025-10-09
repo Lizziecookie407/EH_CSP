@@ -14,8 +14,8 @@ How do we get individual characters from a string in C?
 name[#]
 */
 
-#include <stdio.h>;
-#include <string.h>;
+#include <stdio.h>
+#include <string.h>
 
 int main(void){
     char name[100] = "Valerie"; // can leave brackets blank if you define it, need to make it bigger if you are going to add things to it by concatinating
