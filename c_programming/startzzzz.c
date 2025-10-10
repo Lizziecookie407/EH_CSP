@@ -1,6 +1,6 @@
 // EH 6th
 
-#include <stdio.h>;
+#include <stdio.h>
 
 int main(void){
 
