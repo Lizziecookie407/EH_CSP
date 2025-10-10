@@ -45,7 +45,6 @@ int main(void){
     //this input allows you to get a space
     printf("\nWhat is your name: ");
     fgets(name, sizeof(name), stdin);
-    while(getchar )
     
     printf("%d\n", num);
     printf("%s has a %c grade in this class!", name, grade);

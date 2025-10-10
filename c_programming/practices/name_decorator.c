@@ -4,12 +4,16 @@
 #include <string.h>
 
 int main(void){
-    char name[20];
+    char name[30];
+    char first[] = "|^|~";
+    char last[] = "~|^|";
+
     printf("Enter your name: ");
-    scanf("%s", &name);
-    strcat(name, "~|^|");
-    strcat("|^|~", name);
-    printf("\nHere is your decorated name!\n%s", name);
+    scanf("%s", name);
+
+    strcat(name, last);
+    strcat(first, name);
+    printf("\nHere is your decorated name!\n%s\n", first);
     
     return 0;
 }
