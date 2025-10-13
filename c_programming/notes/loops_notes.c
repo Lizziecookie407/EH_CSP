@@ -8,9 +8,6 @@ What is iteration?
  a number counting a amount of times you loop
 What are arrays? 
  a collection of data grouped together (a list)
-How do you make for loops in C? 
- 
-How do you make while loops in C?
 */
 
 
@@ -29,6 +26,7 @@ int main(void){
     int nums[10] = {1,2,3,4,5,6,7,8,9,10}; //must set data type, braces instead of brackets, commas
     char candy[5][20] = {"Skittles", "Butterfinger", "Reese's", "Kit Kat", "Twix"};
 
+    //for loops
     for(int x = 0; x < 10; x++){
         printf("%d\n", nums[x]);
     }
@@ -41,6 +39,7 @@ int main(void){
         printf("%d\n", num);
     }
 
+    //while loop
     int goose = 6;
     int count = 0;
     while(count != goose){ //only difference from python is the parenthases and braces
@@ -48,6 +47,6 @@ int main(void){
         count++;
     }
     printf("Goose!");
-
+    
     return 0;
 }
