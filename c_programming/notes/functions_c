@@ -1,0 +1,28 @@
+// EH 6th Functions Notes
+
+#include <stdio.h>
+
+int main(void){
+/*
+What a function is:
+ strage contaners for actions to use over and over
+Why we use functions
+ 
+How to write a function in C
+ 
+What are arguments and parameters?
+ 
+How do arguments and parameters work together?
+ 
+How to use parameters and arguments in c
+ 
+What are return statements?
+ 
+How do return statements change how you define a function in C?
+ 
+What do return statements do with the information?
+ 
+*/
+    
+    return 0;
+}
