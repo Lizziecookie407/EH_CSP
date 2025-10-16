@@ -2,22 +2,27 @@
 
 #include <stdio.h>
 
-float input_amount(char type, float amount){
-    printf("\nYour monthly %d: ", type);
-    return amount;
+int input_amount(char* amount){
+    int num;
+    printf("Your monthly %s: ", amount);
+    scanf("%d", &num);
+    return num;
 }
 
-float percent_amount(char amount, float income){
-    (float)(amount/income*100);
+float percent_amount(float amount, int place){
+    float percent = amount/place*100;
+    return percent;
 }
 
 int main(void){
-    float income= input_amount("income", income);
+
+    printf("Hi, welcome to my financial calculator! Enter each amount as a plain number.\n");
+
+    float income = input_amount("income");
     float rent = input_amount("rent");
     float utilities = input_amount("utilities");
     float groceries = input_amount("groceries");
     float transportation = input_amount("transportation");
-
     float savings = (float)income*.1;
     float total_expenses = rent+utilities+groceries+transportation+savings;
     float spending = income-total_expenses;

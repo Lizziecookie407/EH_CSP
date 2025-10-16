@@ -1,4 +1,4 @@
-// EH 6th Financial Calculator
+// EH 6th Financial Calculator uhh
 
 #include <stdio.h>
 #include <math.h>
