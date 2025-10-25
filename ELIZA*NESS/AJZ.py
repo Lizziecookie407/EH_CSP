@@ -59,7 +59,7 @@ def guess():
 i = 0
 while i < 1:
     num = random.randint(102,987)
-    print(num)
+    #print(num)
     if ifrepeat(num) == True:
         #print("has repeat")
         i = 0
